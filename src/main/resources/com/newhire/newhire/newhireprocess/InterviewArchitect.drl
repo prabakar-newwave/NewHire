@@ -1,0 +1,16 @@
+package com.newhire.newhire.newhireprocess;
+
+import com.newhire.newhire.newhireprocess.NewHire;
+
+rule "Architect Interview Rules "
+    no-loop true
+    ruleflow-group "interview"
+    dialect "mvel"
+    when
+	        $newHire : NewHire( positionTitle== "Architect" )
+    then
+	        $newHire.setInterviewerTotal( 3 );
+		$newHire.setPassScore(2);
+		System.out.println("Architect Interview Rules Fired");
+	        update( $newHire );
+end

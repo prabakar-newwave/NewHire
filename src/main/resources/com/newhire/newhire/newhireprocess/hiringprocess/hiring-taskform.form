@@ -1,0 +1,77 @@
+
+<form id="1030191007">
+<property name="subject" value=""/>
+<property name="name" value="hiring-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="0" name="name" type="InputText" id="746466202">
+<property name="fieldRequired" value="true"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value=""/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;name (name)quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="size" value=""/>
+<property name="formula" value=""/>
+<property name="rangeFormula" value=""/>
+<property name="pattern" value=""/>
+<property name="styleclass" value=""/>
+<property name="cssStyle" value=""/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
+<property name="defaultValueFormula" value=""/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="name"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="1" name="department" type="InputText" id="845520527">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;department (department)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="department"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="2" name="isBudgetApproved" type="CheckBox" id="1006348767">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;isBudgetApproved (isBudgetApproved)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="isBudgetApproved"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="3" name="managerReview" type="CheckBox" id="217917212">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;managerReview (managerReview)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="managerReview"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="4" name="montlySalary" type="InputTextInteger" id="209576397">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;montlySalary (montlySalary)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="montlySalary"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="5" name="positionTitle" type="InputText" id="154778627">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;positionTitle (positionTitle)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="positionTitle"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="" name="#FF54A7" type="basicType" outId="age" value="java.lang.Integer" id="age"/>
+<dataHolder inputId="" name="#A7E690" type="basicType" outId="department" value="java.lang.String" id="department"/>
+<dataHolder inputId="" name="#BBBBBB" type="basicType" outId="hr_score" value="java.lang.Integer" id="hr_score"/>
+<dataHolder inputId="" name="#9BCAFA" type="basicType" outId="isBudgetApproved" value="java.lang.Boolean" id="isBudgetApproved"/>
+<dataHolder inputId="" name="#FF8881" type="basicType" outId="mail" value="java.lang.String" id="mail"/>
+<dataHolder inputId="" name="#B29FE4" type="basicType" outId="managerReview" value="java.lang.Boolean" id="managerReview"/>
+<dataHolder inputId="" name="#FF54A7" type="basicType" outId="montlySalary" value="java.lang.Integer" id="montlySalary"/>
+<dataHolder inputId="" name="#0000A0" type="basicType" outId="name" value="java.lang.String" id="name"/>
+<dataHolder inputId="" name="#B29FE4" type="basicType" outId="offering" value="java.lang.Integer" id="offering"/>
+<dataHolder inputId="" name="#0000A0" type="basicType" outId="positionTitle" value="java.lang.String" id="positionTitle"/>
+<dataHolder inputId="" name="#000000" type="basicType" outId="signed" value="java.lang.Boolean" id="signed"/>
+<dataHolder inputId="" name="#9BCAFA" type="basicType" outId="skills" value="java.lang.String" id="skills"/>
+<dataHolder inputId="" name="#FBB767" type="basicType" outId="tech_score" value="java.lang.Integer" id="tech_score"/>
+<dataHolder inputId="" name="#A7E690" type="basicType" outId="twitter" value="java.lang.String" id="twitter"/>
+</form>

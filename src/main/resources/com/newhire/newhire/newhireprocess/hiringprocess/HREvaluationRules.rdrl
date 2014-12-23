@@ -1,0 +1,18 @@
+package com.newhire.newhire.newhireprocess.hiringprocess;
+
+import java.lang.Number;
+import com.newhire.newhire.newhireprocess.Candidate;
+
+rule "HREvaluationRules"
+	dialect "mvel"
+	ruleflow-group "hrevaluationrules"
+	no-loop true
+	when
+		candidate : Candidate( candidateType == "newhire" , checkType == "required" )
+	then
+		candidate.setBackgroundCheck( true );
+		candidate.setComplianceReview( true );
+		candidate.setReferenceInterview( true );
+		update( candidate );
+		System.out.println("HR Evaluation Rules Fired");
+end

@@ -1,0 +1,13 @@
+package com.newhire.newhire.newhireprocess.hiringprocess;
+
+import java.lang.Number;
+import com.newhire.newhire.newhireprocess.Candidate;
+
+rule "ResetSession"
+	dialect "mvel"
+	ruleflow-group "resetsession"
+	when
+		candidate : Candidate( )
+	then
+		retract( candidate );
+end

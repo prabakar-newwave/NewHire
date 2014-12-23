@@ -1,0 +1,14 @@
+package com.newhire.newhire.newhireprocess;
+
+rule "Developer Interview Rules "
+    no-loop true
+    ruleflow-group "interview"
+    dialect "mvel"
+    when
+	        $newHire : NewHire( positionTitle== "Developer" )
+    then
+	        $newHire.setInterviewerTotal( 2 );
+		$newHire.setPassScore(1);
+		System.out.println("Developer Interview Rules Fired");
+	        update( $newHire );
+end

@@ -1,0 +1,13 @@
+package com.newhire.newhire.newhireprocess.hiringprocess;
+
+import java.lang.Number;
+import com.newhire.newhire.newhireprocess.MIStoper;
+
+rule "SingalReset"
+	dialect "mvel"
+	ruleflow-group "resetsession"
+	when
+		miStoper : MIStoper( )
+	then
+		retract( miStoper );
+end
